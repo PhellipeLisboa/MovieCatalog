@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(223, 223, 223);
+}
+
+.title {
+    background-color: gray;
+    padding: 10px;
+}
+
+.title h1 {
+    background-color: gray;
+    color:rgb(223, 223, 223);
+    font-weight: 900;
+    font-size: 36px;
+    
+    height: 45px;
+    text-align: center;
+    padding: 5px 15px;
+    text-shadow: 1px 1px 4px black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: gray;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.lista {
+
+    background: rgb(223, 223, 223);
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+
+    flex-wrap: wrap;
+
+}
+
+.item {
+    text-align: center;
+    padding: 10px;
+    width: 225px;
+    border: 2px solid rgb(64, 177, 214);
+    margin: 5px;
+    border-radius: 20px;
+
+}
+
+.item:hover {
+    background-color: rgb(64, 177, 214);
+    transition: 0.75s;
+    cursor: pointer;
+}
+
+.item:hover h2{
+    background-color: rgb(64, 177, 214);
+    transition: 0.75s;
+    cursor: pointer;
+}
+
+.item:hover p{
+    background-color: rgb(64, 177, 214);
+    transition: 0.75s;
+    cursor: pointer;
+}
+
+.item img {
+    width: 200px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.item h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.item p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#pesquisa {
+
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+
+    border-radius: 20px;
+    padding: 15px;
+    margin: 15px 20px;
+    width: 700px;
+    box-shadow: 1px 1px 4px black;
+}
+
+.btn {
+    border-radius: 20px;
+    padding: 15px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 1px 1px 4px black;
+    background-color: blue;
+    border: 2px solid blue;
+    color: rgb(223, 223, 223);
+}
+
+.btn:hover {
+    background-color: rgb(223, 223, 223);
+    color: blue;
+    border: 2px solid blue;
+    transition: 0.75s;
+    cursor: pointer;
+}
